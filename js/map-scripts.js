@@ -12,13 +12,13 @@
         // Basic options for a simple Google Map
         // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 
-        var myLatLng = new google.maps.LatLng(29.0021656, 77.021091);
+        var myLatLng = new google.maps.LatLng(29.0021656,77.021091);
 
         var mapOptions = {
             zoom: 15,
             center: myLatLng,
             disableDefaultUI: true,
-            scrollwheel: true,
+            scrollwheel: false,
             navigationControl: true,
             mapTypeControl: true,
             scaleControl: false,
