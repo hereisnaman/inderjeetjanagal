@@ -145,7 +145,7 @@
             lineWidth: 8,
             size: 150,
             scaleColor: false,
-            barColor: '#F76B1D',
+            barColor: '#26ade4',
             trackColor: '#f7f7f7',
             animate: 7000,
             onStep: function(from, to, percent) {
